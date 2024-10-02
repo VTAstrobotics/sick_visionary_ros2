@@ -1,0 +1,2 @@
+Invoking command in '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2 -- -j20 -l20
+Invoked command in '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2 -- -j20 -l20

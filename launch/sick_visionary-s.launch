@@ -1,4 +1,5 @@
 <!-- Entry point for using OpenNI devices -->
+TODO: make ros2 launch file
 <launch>
 
   <arg name="camera" default="sick_visionary_s" />

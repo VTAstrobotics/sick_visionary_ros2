@@ -1,0 +1,452 @@
+[0.000000] (-) TimerEvent: {}
+[0.000947] (sick_visionary_ros2) JobQueued: {'identifier': 'sick_visionary_ros2', 'dependencies': OrderedDict()}
+[0.001437] (sick_visionary_ros2) JobStarted: {'identifier': 'sick_visionary_ros2'}
+[0.045685] (sick_visionary_ros2) JobProgress: {'identifier': 'sick_visionary_ros2', 'progress': 'cmake'}
+[0.083945] (sick_visionary_ros2) JobProgress: {'identifier': 'sick_visionary_ros2', 'progress': 'build'}
+[0.090732] (sick_visionary_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2', '--', '-j20', '-l20'], 'cwd': '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/helpers/browser.sh'), ('HOME', '/home/astro-dev'), ('OLDPWD', '/sick_visionary_ros2'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1ff0d356-3311-4b20-86ed-5f2cd660e58a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-7f206604-382b-4589-825f-bd37b64ccb99.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-4ab91577-ecd3-4b1f-931e-a8d90be733e2.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/home/astro-dev/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/home/astro-dev/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-484c183e71.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.111677] (-) TimerEvent: {}
+[0.212354] (-) TimerEvent: {}
+[0.290341] (sick_visionary_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.312541] (-) TimerEvent: {}
+[0.413493] (-) TimerEvent: {}
+[0.514674] (-) TimerEvent: {}
+[0.570149] (sick_visionary_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.614861] (-) TimerEvent: {}
+[0.715764] (-) TimerEvent: {}
+[0.760061] (sick_visionary_ros2) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.813632] (sick_visionary_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.818696] (-) TimerEvent: {}
+[0.820070] (sick_visionary_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.836693] (sick_visionary_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.879594] (sick_visionary_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.913916] (sick_visionary_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.921582] (-) TimerEvent: {}
+[1.016612] (sick_visionary_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.021756] (-) TimerEvent: {}
+[1.052068] (sick_visionary_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.063234] (sick_visionary_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.121904] (-) TimerEvent: {}
+[1.222742] (-) TimerEvent: {}
+[1.323446] (-) TimerEvent: {}
+[1.424396] (-) TimerEvent: {}
+[1.525245] (-) TimerEvent: {}
+[1.592584] (sick_visionary_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.625449] (-) TimerEvent: {}
+[1.646550] (sick_visionary_ros2) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)\n'}
+[1.680560] (sick_visionary_ros2) StdoutLine: {'line': b'-- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.725656] (-) TimerEvent: {}
+[1.826714] (-) TimerEvent: {}
+[1.839634] (sick_visionary_ros2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system \n'}
+[1.865976] (sick_visionary_ros2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.880425] (sick_visionary_ros2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[1.926912] (-) TimerEvent: {}
+[2.027805] (-) TimerEvent: {}
+[2.081192] (sick_visionary_ros2) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[2.128068] (-) TimerEvent: {}
+[2.229061] (-) TimerEvent: {}
+[2.329974] (-) TimerEvent: {}
+[2.430910] (-) TimerEvent: {}
+[2.531866] (-) TimerEvent: {}
+[2.632984] (-) TimerEvent: {}
+[2.734459] (-) TimerEvent: {}
+[2.835937] (-) TimerEvent: {}
+[2.936929] (-) TimerEvent: {}
+[3.037724] (-) TimerEvent: {}
+[3.138531] (-) TimerEvent: {}
+[3.239371] (-) TimerEvent: {}
+[3.369685] (-) TimerEvent: {}
+[3.470716] (-) TimerEvent: {}
+[3.572013] (-) TimerEvent: {}
+[3.673051] (-) TimerEvent: {}
+[3.773928] (-) TimerEvent: {}
+[3.874775] (-) TimerEvent: {}
+[3.975812] (-) TimerEvent: {}
+[4.076816] (-) TimerEvent: {}
+[4.177730] (-) TimerEvent: {}
+[4.278710] (-) TimerEvent: {}
+[4.379752] (-) TimerEvent: {}
+[4.428613] (sick_visionary_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.437836] (sick_visionary_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[4.439398] (sick_visionary_ros2) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[4.479951] (-) TimerEvent: {}
+[4.580855] (-) TimerEvent: {}
+[4.681751] (-) TimerEvent: {}
+[4.782601] (-) TimerEvent: {}
+[4.883551] (-) TimerEvent: {}
+[4.984433] (-) TimerEvent: {}
+[5.014080] (sick_visionary_ros2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[5.024153] (sick_visionary_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[5.032864] (sick_visionary_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[5.084628] (-) TimerEvent: {}
+[5.185655] (-) TimerEvent: {}
+[5.286480] (-) TimerEvent: {}
+[5.387411] (-) TimerEvent: {}
+[5.488149] (-) TimerEvent: {}
+[5.589010] (-) TimerEvent: {}
+[5.628130] (sick_visionary_ros2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[5.689206] (-) TimerEvent: {}
+[5.790325] (-) TimerEvent: {}
+[5.891167] (-) TimerEvent: {}
+[5.992337] (-) TimerEvent: {}
+[6.093193] (-) TimerEvent: {}
+[6.194080] (-) TimerEvent: {}
+[6.294930] (-) TimerEvent: {}
+[6.339123] (sick_visionary_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[6.395118] (-) TimerEvent: {}
+[6.495948] (-) TimerEvent: {}
+[6.596934] (-) TimerEvent: {}
+[6.698862] (-) TimerEvent: {}
+[6.799662] (-) TimerEvent: {}
+[6.900571] (-) TimerEvent: {}
+[6.945059] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[6.947154] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[6.949485] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[6.950776] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[6.952277] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[6.953419] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[6.954754] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[6.956401] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[6.958169] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[6.959934] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[6.961372] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[6.962945] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[6.964829] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[6.966548] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[6.968101] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[6.969439] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[6.970950] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[6.973059] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[6.975183] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[6.976904] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[6.978341] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[6.980241] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[6.982717] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[6.984461] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[6.986102] (sick_visionary_ros2) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[6.987997] (sick_visionary_ros2) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:64 (add_subdirectory):\n'}
+[6.989530] (sick_visionary_ros2) StderrLine: {'line': b'  add_subdirectory given source "sick_visionary_cpp_shared" which is not an\n'}
+[6.990712] (sick_visionary_ros2) StderrLine: {'line': b'  existing directory.\n'}
+[6.992502] (sick_visionary_ros2) StderrLine: {'line': b'\n'}
+[6.993872] (sick_visionary_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[6.995219] (sick_visionary_ros2) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:93 (install):\n'}
+[6.996595] (sick_visionary_ros2) StderrLine: {'line': b'  install DIRECTORY given no DESTINATION!\n'}
+[6.998623] (sick_visionary_ros2) StderrLine: {'line': b'\n'}
+[7.000498] (sick_visionary_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[7.002208] (-) TimerEvent: {}
+[7.103012] (-) TimerEvent: {}
+[7.203918] (-) TimerEvent: {}
+[7.305048] (-) TimerEvent: {}
+[7.406052] (-) TimerEvent: {}
+[7.506961] (-) TimerEvent: {}
+[7.607942] (-) TimerEvent: {}
+[7.709049] (-) TimerEvent: {}
+[7.809833] (-) TimerEvent: {}
+[7.910685] (-) TimerEvent: {}
+[8.011515] (-) TimerEvent: {}
+[8.112257] (-) TimerEvent: {}
+[8.213033] (-) TimerEvent: {}
+[8.313874] (-) TimerEvent: {}
+[8.415294] (-) TimerEvent: {}
+[8.516701] (-) TimerEvent: {}
+[8.617608] (-) TimerEvent: {}
+[8.718480] (-) TimerEvent: {}
+[8.819525] (-) TimerEvent: {}
+[8.920495] (-) TimerEvent: {}
+[9.021507] (-) TimerEvent: {}
+[9.122204] (-) TimerEvent: {}
+[9.222888] (-) TimerEvent: {}
+[9.323630] (-) TimerEvent: {}
+[9.424351] (-) TimerEvent: {}
+[9.525139] (-) TimerEvent: {}
+[9.626033] (-) TimerEvent: {}
+[9.726742] (-) TimerEvent: {}
+[9.827486] (-) TimerEvent: {}
+[9.928248] (-) TimerEvent: {}
+[10.029088] (-) TimerEvent: {}
+[10.129875] (-) TimerEvent: {}
+[10.230625] (-) TimerEvent: {}
+[10.331891] (-) TimerEvent: {}
+[10.432636] (-) TimerEvent: {}
+[10.533668] (-) TimerEvent: {}
+[10.634583] (-) TimerEvent: {}
+[10.735923] (-) TimerEvent: {}
+[10.837430] (-) TimerEvent: {}
+[10.938873] (-) TimerEvent: {}
+[11.039759] (-) TimerEvent: {}
+[11.140669] (-) TimerEvent: {}
+[11.241741] (-) TimerEvent: {}
+[11.342752] (-) TimerEvent: {}
+[11.443631] (-) TimerEvent: {}
+[11.544627] (-) TimerEvent: {}
+[11.646034] (-) TimerEvent: {}
+[11.747051] (-) TimerEvent: {}
+[11.848612] (-) TimerEvent: {}
+[11.949654] (-) TimerEvent: {}
+[12.050724] (-) TimerEvent: {}
+[12.151891] (-) TimerEvent: {}
+[12.253118] (-) TimerEvent: {}
+[12.354291] (-) TimerEvent: {}
+[12.455274] (-) TimerEvent: {}
+[12.556222] (-) TimerEvent: {}
+[12.657468] (-) TimerEvent: {}
+[12.758545] (-) TimerEvent: {}
+[12.859814] (-) TimerEvent: {}
+[12.960898] (-) TimerEvent: {}
+[13.062051] (-) TimerEvent: {}
+[13.163325] (-) TimerEvent: {}
+[13.264354] (-) TimerEvent: {}
+[13.365301] (-) TimerEvent: {}
+[13.466284] (-) TimerEvent: {}
+[13.567202] (-) TimerEvent: {}
+[13.668373] (-) TimerEvent: {}
+[13.769568] (-) TimerEvent: {}
+[13.870480] (-) TimerEvent: {}
+[13.971412] (-) TimerEvent: {}
+[14.072581] (-) TimerEvent: {}
+[14.173811] (-) TimerEvent: {}
+[14.274579] (-) TimerEvent: {}
+[14.375349] (-) TimerEvent: {}
+[14.476166] (-) TimerEvent: {}
+[14.576931] (-) TimerEvent: {}
+[14.677983] (-) TimerEvent: {}
+[14.779028] (-) TimerEvent: {}
+[14.879673] (-) TimerEvent: {}
+[14.980929] (-) TimerEvent: {}
+[15.081702] (-) TimerEvent: {}
+[15.182538] (-) TimerEvent: {}
+[15.283337] (-) TimerEvent: {}
+[15.384186] (-) TimerEvent: {}
+[15.484990] (-) TimerEvent: {}
+[15.585857] (-) TimerEvent: {}
+[15.686700] (-) TimerEvent: {}
+[15.787601] (-) TimerEvent: {}
+[15.888299] (-) TimerEvent: {}
+[15.989018] (-) TimerEvent: {}
+[16.089672] (-) TimerEvent: {}
+[16.190453] (-) TimerEvent: {}
+[16.291200] (-) TimerEvent: {}
+[16.391925] (-) TimerEvent: {}
+[16.492743] (-) TimerEvent: {}
+[16.593529] (-) TimerEvent: {}
+[16.694248] (-) TimerEvent: {}
+[16.795161] (-) TimerEvent: {}
+[16.896120] (-) TimerEvent: {}
+[16.996900] (-) TimerEvent: {}
+[17.097758] (-) TimerEvent: {}
+[17.198468] (-) TimerEvent: {}
+[17.299280] (-) TimerEvent: {}
+[17.400004] (-) TimerEvent: {}
+[17.500670] (-) TimerEvent: {}
+[17.601382] (-) TimerEvent: {}
+[17.702281] (-) TimerEvent: {}
+[17.803030] (-) TimerEvent: {}
+[17.903838] (-) TimerEvent: {}
+[18.004566] (-) TimerEvent: {}
+[18.105315] (-) TimerEvent: {}
+[18.206206] (-) TimerEvent: {}
+[18.307079] (-) TimerEvent: {}
+[18.407832] (-) TimerEvent: {}
+[18.508865] (-) TimerEvent: {}
+[18.609787] (-) TimerEvent: {}
+[18.622842] (sick_visionary_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[18.625463] (sick_visionary_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /sick_visionary_ros2/sick_visionary_ros2/include;/sick_visionary_ros2/sick_visionary_ros2/sick_visionary_cpp_shared\n'}
+[18.627237] (sick_visionary_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[18.709946] (-) TimerEvent: {}
+[18.810655] (-) TimerEvent: {}
+[18.911327] (-) TimerEvent: {}
+[19.012123] (-) TimerEvent: {}
+[19.112968] (-) TimerEvent: {}
+[19.213849] (-) TimerEvent: {}
+[19.315261] (-) TimerEvent: {}
+[19.415988] (-) TimerEvent: {}
+[19.516897] (-) TimerEvent: {}
+[19.617818] (-) TimerEvent: {}
+[19.718645] (-) TimerEvent: {}
+[19.819524] (-) TimerEvent: {}
+[19.883925] (sick_visionary_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[19.919695] (-) TimerEvent: {}
+[20.020416] (-) TimerEvent: {}
+[20.121214] (-) TimerEvent: {}
+[20.221960] (-) TimerEvent: {}
+[20.322783] (-) TimerEvent: {}
+[20.423806] (-) TimerEvent: {}
+[20.524726] (-) TimerEvent: {}
+[20.625565] (-) TimerEvent: {}
+[20.726530] (-) TimerEvent: {}
+[20.827446] (-) TimerEvent: {}
+[20.928829] (-) TimerEvent: {}
+[21.029649] (-) TimerEvent: {}
+[21.130373] (-) TimerEvent: {}
+[21.231178] (-) TimerEvent: {}
+[21.332059] (-) TimerEvent: {}
+[21.432870] (-) TimerEvent: {}
+[21.533633] (-) TimerEvent: {}
+[21.634379] (-) TimerEvent: {}
+[21.735132] (-) TimerEvent: {}
+[21.836100] (-) TimerEvent: {}
+[21.937013] (-) TimerEvent: {}
+[22.037890] (-) TimerEvent: {}
+[22.138578] (-) TimerEvent: {}
+[22.239292] (-) TimerEvent: {}
+[22.340043] (-) TimerEvent: {}
+[22.440786] (-) TimerEvent: {}
+[22.558138] (-) TimerEvent: {}
+[22.659194] (-) TimerEvent: {}
+[22.676518] (sick_visionary_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[22.759535] (-) TimerEvent: {}
+[22.861045] (-) TimerEvent: {}
+[22.961937] (-) TimerEvent: {}
+[23.062916] (-) TimerEvent: {}
+[23.164188] (-) TimerEvent: {}
+[23.265233] (-) TimerEvent: {}
+[23.366106] (-) TimerEvent: {}
+[23.467151] (-) TimerEvent: {}
+[23.568148] (-) TimerEvent: {}
+[23.668813] (-) TimerEvent: {}
+[23.769525] (-) TimerEvent: {}
+[23.870261] (-) TimerEvent: {}
+[23.971085] (-) TimerEvent: {}
+[24.071824] (-) TimerEvent: {}
+[24.172631] (-) TimerEvent: {}
+[24.234481] (sick_visionary_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[24.272799] (-) TimerEvent: {}
+[24.373643] (-) TimerEvent: {}
+[24.474323] (-) TimerEvent: {}
+[24.575107] (-) TimerEvent: {}
+[24.675900] (-) TimerEvent: {}
+[24.807695] (-) TimerEvent: {}
+[24.908428] (-) TimerEvent: {}
+[25.009351] (-) TimerEvent: {}
+[25.110313] (-) TimerEvent: {}
+[25.211113] (-) TimerEvent: {}
+[25.312018] (-) TimerEvent: {}
+[25.413086] (-) TimerEvent: {}
+[25.514141] (-) TimerEvent: {}
+[25.615341] (-) TimerEvent: {}
+[25.716307] (-) TimerEvent: {}
+[25.817077] (-) TimerEvent: {}
+[25.917923] (-) TimerEvent: {}
+[26.018802] (-) TimerEvent: {}
+[26.119539] (-) TimerEvent: {}
+[26.220416] (-) TimerEvent: {}
+[26.321287] (-) TimerEvent: {}
+[26.422142] (-) TimerEvent: {}
+[26.523006] (-) TimerEvent: {}
+[26.623975] (-) TimerEvent: {}
+[26.724903] (-) TimerEvent: {}
+[26.825902] (-) TimerEvent: {}
+[26.926697] (-) TimerEvent: {}
+[27.027546] (-) TimerEvent: {}
+[27.128423] (-) TimerEvent: {}
+[27.229109] (-) TimerEvent: {}
+[27.329962] (-) TimerEvent: {}
+[27.430947] (-) TimerEvent: {}
+[27.532072] (-) TimerEvent: {}
+[27.632875] (-) TimerEvent: {}
+[27.734032] (-) TimerEvent: {}
+[27.834764] (-) TimerEvent: {}
+[27.935471] (-) TimerEvent: {}
+[28.036289] (-) TimerEvent: {}
+[28.137009] (-) TimerEvent: {}
+[28.237926] (-) TimerEvent: {}
+[28.338624] (-) TimerEvent: {}
+[28.439643] (-) TimerEvent: {}
+[28.540500] (-) TimerEvent: {}
+[28.641187] (-) TimerEvent: {}
+[28.742153] (-) TimerEvent: {}
+[28.842919] (-) TimerEvent: {}
+[28.943833] (-) TimerEvent: {}
+[29.044809] (-) TimerEvent: {}
+[29.146693] (-) TimerEvent: {}
+[29.247770] (-) TimerEvent: {}
+[29.348902] (-) TimerEvent: {}
+[29.449774] (-) TimerEvent: {}
+[29.551052] (-) TimerEvent: {}
+[29.652297] (-) TimerEvent: {}
+[29.753413] (-) TimerEvent: {}
+[29.854591] (-) TimerEvent: {}
+[29.955781] (-) TimerEvent: {}
+[30.056949] (-) TimerEvent: {}
+[30.157903] (-) TimerEvent: {}
+[30.258763] (-) TimerEvent: {}
+[30.359610] (-) TimerEvent: {}
+[30.460455] (-) TimerEvent: {}
+[30.561466] (-) TimerEvent: {}
+[30.662482] (-) TimerEvent: {}
+[30.763223] (-) TimerEvent: {}
+[30.864027] (-) TimerEvent: {}
+[30.967796] (-) TimerEvent: {}
+[31.068603] (-) TimerEvent: {}
+[31.169442] (-) TimerEvent: {}
+[31.270244] (-) TimerEvent: {}
+[31.371101] (-) TimerEvent: {}
+[31.471908] (-) TimerEvent: {}
+[31.572710] (-) TimerEvent: {}
+[31.673497] (-) TimerEvent: {}
+[31.774190] (-) TimerEvent: {}
+[31.874863] (-) TimerEvent: {}
+[31.975642] (-) TimerEvent: {}
+[32.076447] (-) TimerEvent: {}
+[32.177256] (-) TimerEvent: {}
+[32.278040] (-) TimerEvent: {}
+[32.379009] (-) TimerEvent: {}
+[32.479899] (-) TimerEvent: {}
+[32.581016] (-) TimerEvent: {}
+[32.682108] (-) TimerEvent: {}
+[32.783009] (-) TimerEvent: {}
+[32.883825] (-) TimerEvent: {}
+[32.984717] (-) TimerEvent: {}
+[33.085474] (-) TimerEvent: {}
+[33.186243] (-) TimerEvent: {}
+[33.286887] (-) TimerEvent: {}
+[33.387693] (-) TimerEvent: {}
+[33.488436] (-) TimerEvent: {}
+[33.589202] (-) TimerEvent: {}
+[33.704035] (-) TimerEvent: {}
+[33.804855] (-) TimerEvent: {}
+[33.905724] (-) TimerEvent: {}
+[34.006458] (-) TimerEvent: {}
+[34.107228] (-) TimerEvent: {}
+[34.207983] (-) TimerEvent: {}
+[34.308748] (-) TimerEvent: {}
+[34.409484] (-) TimerEvent: {}
+[34.510249] (-) TimerEvent: {}
+[34.611087] (-) TimerEvent: {}
+[34.711962] (-) TimerEvent: {}
+[34.812964] (-) TimerEvent: {}
+[34.913952] (-) TimerEvent: {}
+[35.015341] (-) TimerEvent: {}
+[35.116168] (-) TimerEvent: {}
+[35.217141] (-) TimerEvent: {}
+[35.283168] (sick_visionary_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[35.285041] (sick_visionary_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[35.317277] (-) TimerEvent: {}
+[35.418186] (-) TimerEvent: {}
+[35.519070] (-) TimerEvent: {}
+[35.619854] (-) TimerEvent: {}
+[35.720736] (-) TimerEvent: {}
+[35.821630] (-) TimerEvent: {}
+[35.922841] (-) TimerEvent: {}
+[36.024049] (-) TimerEvent: {}
+[36.124876] (-) TimerEvent: {}
+[36.225772] (-) TimerEvent: {}
+[36.326630] (-) TimerEvent: {}
+[36.427513] (-) TimerEvent: {}
+[36.528421] (-) TimerEvent: {}
+[36.629374] (-) TimerEvent: {}
+[36.730321] (-) TimerEvent: {}
+[36.793286] (sick_visionary_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[36.830536] (-) TimerEvent: {}
+[36.927037] (sick_visionary_ros2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[36.928402] (sick_visionary_ros2) StdoutLine: {'line': b'See also "/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2/CMakeFiles/CMakeOutput.log".\n'}
+[36.930720] (-) TimerEvent: {}
+[36.997073] (sick_visionary_ros2) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[37.001899] (sick_visionary_ros2) CommandEnded: {'returncode': 2}
+[37.030869] (-) TimerEvent: {}
+[37.131675] (-) TimerEvent: {}
+[37.232740] (-) TimerEvent: {}
+[37.333559] (-) TimerEvent: {}
+[37.434237] (-) TimerEvent: {}
+[37.526550] (sick_visionary_ros2) JobEnded: {'identifier': 'sick_visionary_ros2', 'rc': 2}
+[37.559771] (-) TimerEvent: {}
+[37.560305] (-) EventReactorShutdown: {}

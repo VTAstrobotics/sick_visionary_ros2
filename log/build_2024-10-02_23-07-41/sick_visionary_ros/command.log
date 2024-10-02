@@ -1,0 +1,2 @@
+Invoking command in '/sick_visionary_ros2/build/sick_visionary_ros': /usr/bin/cmake /sick_visionary_ros2 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/sick_visionary_ros2/install/sick_visionary_ros
+Invoked command in '/sick_visionary_ros2/build/sick_visionary_ros' returned '1': /usr/bin/cmake /sick_visionary_ros2 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/sick_visionary_ros2/install/sick_visionary_ros

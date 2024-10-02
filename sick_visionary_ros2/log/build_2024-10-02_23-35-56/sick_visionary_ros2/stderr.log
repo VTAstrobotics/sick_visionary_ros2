@@ -1,0 +1,7 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[31mCMake Error at CMakeLists.txt:64 (add_subdirectory):
+  add_subdirectory given source "sick_visionary_cpp_shared" which is not an
+  existing directory.
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

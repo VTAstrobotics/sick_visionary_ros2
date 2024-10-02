@@ -1,0 +1,222 @@
+[0.000000] (-) TimerEvent: {}
+[0.000987] (sick_visionary_ros2) JobQueued: {'identifier': 'sick_visionary_ros2', 'dependencies': OrderedDict()}
+[0.001581] (sick_visionary_ros2) JobStarted: {'identifier': 'sick_visionary_ros2'}
+[0.042260] (sick_visionary_ros2) JobProgress: {'identifier': 'sick_visionary_ros2', 'progress': 'cmake'}
+[0.057333] (sick_visionary_ros2) Command: {'cmd': ['/usr/bin/cmake', '/sick_visionary_ros2/sick_visionary_ros2', '-DCMAKE_INSTALL_PREFIX=/sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2'], 'cwd': '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/helpers/browser.sh'), ('HOME', '/home/astro-dev'), ('OLDPWD', '/sick_visionary_ros2'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1ff0d356-3311-4b20-86ed-5f2cd660e58a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-7f206604-382b-4589-825f-bd37b64ccb99.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-4ab91577-ecd3-4b1f-931e-a8d90be733e2.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/home/astro-dev/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/home/astro-dev/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-484c183e71.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.096935] (-) TimerEvent: {}
+[0.197681] (-) TimerEvent: {}
+[0.298640] (-) TimerEvent: {}
+[0.399552] (-) TimerEvent: {}
+[0.445061] (sick_visionary_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.499705] (-) TimerEvent: {}
+[0.600483] (-) TimerEvent: {}
+[0.701310] (-) TimerEvent: {}
+[0.763583] (sick_visionary_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.801494] (-) TimerEvent: {}
+[0.852525] (sick_visionary_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.901658] (-) TimerEvent: {}
+[1.002480] (-) TimerEvent: {}
+[1.103399] (-) TimerEvent: {}
+[1.205036] (-) TimerEvent: {}
+[1.306075] (-) TimerEvent: {}
+[1.407154] (-) TimerEvent: {}
+[1.508036] (-) TimerEvent: {}
+[1.608819] (-) TimerEvent: {}
+[1.709503] (-) TimerEvent: {}
+[1.735929] (sick_visionary_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.778751] (sick_visionary_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.780866] (sick_visionary_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.782275] (sick_visionary_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.809666] (-) TimerEvent: {}
+[1.868731] (sick_visionary_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.909810] (-) TimerEvent: {}
+[2.010609] (-) TimerEvent: {}
+[2.111513] (-) TimerEvent: {}
+[2.212441] (-) TimerEvent: {}
+[2.313216] (-) TimerEvent: {}
+[2.414474] (-) TimerEvent: {}
+[2.515224] (-) TimerEvent: {}
+[2.616017] (-) TimerEvent: {}
+[2.717011] (-) TimerEvent: {}
+[2.802950] (sick_visionary_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.817170] (-) TimerEvent: {}
+[2.865213] (sick_visionary_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.867717] (sick_visionary_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.869886] (sick_visionary_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.917356] (-) TimerEvent: {}
+[2.999383] (sick_visionary_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.020633] (-) TimerEvent: {}
+[3.121487] (-) TimerEvent: {}
+[3.222568] (-) TimerEvent: {}
+[3.259516] (sick_visionary_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.322786] (-) TimerEvent: {}
+[3.423742] (-) TimerEvent: {}
+[3.524829] (-) TimerEvent: {}
+[3.625824] (-) TimerEvent: {}
+[3.645662] (sick_visionary_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.725929] (-) TimerEvent: {}
+[3.826671] (-) TimerEvent: {}
+[3.927667] (-) TimerEvent: {}
+[4.028495] (-) TimerEvent: {}
+[4.129499] (-) TimerEvent: {}
+[4.230303] (-) TimerEvent: {}
+[4.331017] (-) TimerEvent: {}
+[4.431816] (-) TimerEvent: {}
+[4.532574] (-) TimerEvent: {}
+[4.633451] (-) TimerEvent: {}
+[4.734346] (-) TimerEvent: {}
+[4.835180] (-) TimerEvent: {}
+[4.936238] (-) TimerEvent: {}
+[5.037279] (-) TimerEvent: {}
+[5.139959] (-) TimerEvent: {}
+[5.240689] (-) TimerEvent: {}
+[5.341506] (-) TimerEvent: {}
+[5.442656] (-) TimerEvent: {}
+[5.543860] (-) TimerEvent: {}
+[5.645010] (-) TimerEvent: {}
+[5.746484] (-) TimerEvent: {}
+[5.847191] (-) TimerEvent: {}
+[5.947975] (-) TimerEvent: {}
+[6.048656] (-) TimerEvent: {}
+[6.149544] (-) TimerEvent: {}
+[6.250378] (-) TimerEvent: {}
+[6.351193] (-) TimerEvent: {}
+[6.451872] (-) TimerEvent: {}
+[6.552551] (-) TimerEvent: {}
+[6.653321] (-) TimerEvent: {}
+[6.754601] (-) TimerEvent: {}
+[6.855747] (-) TimerEvent: {}
+[6.957217] (-) TimerEvent: {}
+[7.057961] (-) TimerEvent: {}
+[7.158870] (-) TimerEvent: {}
+[7.259648] (-) TimerEvent: {}
+[7.360351] (-) TimerEvent: {}
+[7.461292] (-) TimerEvent: {}
+[7.492009] (sick_visionary_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.493342] (sick_visionary_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[7.494494] (sick_visionary_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.561455] (-) TimerEvent: {}
+[7.662180] (-) TimerEvent: {}
+[7.763079] (-) TimerEvent: {}
+[7.864229] (-) TimerEvent: {}
+[7.965121] (-) TimerEvent: {}
+[8.066320] (-) TimerEvent: {}
+[8.167265] (-) TimerEvent: {}
+[8.268167] (-) TimerEvent: {}
+[8.368962] (-) TimerEvent: {}
+[8.469669] (-) TimerEvent: {}
+[8.570346] (-) TimerEvent: {}
+[8.671294] (-) TimerEvent: {}
+[8.768783] (sick_visionary_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.771433] (-) TimerEvent: {}
+[8.872499] (-) TimerEvent: {}
+[8.973600] (-) TimerEvent: {}
+[9.074330] (-) TimerEvent: {}
+[9.175093] (-) TimerEvent: {}
+[9.275752] (-) TimerEvent: {}
+[9.376506] (-) TimerEvent: {}
+[9.477177] (-) TimerEvent: {}
+[9.577926] (-) TimerEvent: {}
+[9.678603] (-) TimerEvent: {}
+[9.779353] (-) TimerEvent: {}
+[9.880684] (-) TimerEvent: {}
+[9.981468] (-) TimerEvent: {}
+[10.082298] (-) TimerEvent: {}
+[10.183227] (-) TimerEvent: {}
+[10.284013] (-) TimerEvent: {}
+[10.384818] (-) TimerEvent: {}
+[10.485551] (-) TimerEvent: {}
+[10.586419] (-) TimerEvent: {}
+[10.687206] (-) TimerEvent: {}
+[10.788046] (-) TimerEvent: {}
+[10.888795] (-) TimerEvent: {}
+[10.989608] (-) TimerEvent: {}
+[11.090559] (-) TimerEvent: {}
+[11.191615] (-) TimerEvent: {}
+[11.292426] (-) TimerEvent: {}
+[11.393112] (-) TimerEvent: {}
+[11.493754] (-) TimerEvent: {}
+[11.594419] (-) TimerEvent: {}
+[11.695201] (-) TimerEvent: {}
+[11.796270] (-) TimerEvent: {}
+[11.897031] (-) TimerEvent: {}
+[11.997711] (-) TimerEvent: {}
+[12.023624] (sick_visionary_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[12.024943] (sick_visionary_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[12.097912] (-) TimerEvent: {}
+[12.198656] (-) TimerEvent: {}
+[12.299343] (-) TimerEvent: {}
+[12.353841] (sick_visionary_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.399518] (-) TimerEvent: {}
+[12.500320] (-) TimerEvent: {}
+[12.532268] (sick_visionary_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.600475] (-) TimerEvent: {}
+[12.701235] (-) TimerEvent: {}
+[12.802329] (-) TimerEvent: {}
+[12.903404] (-) TimerEvent: {}
+[13.004719] (-) TimerEvent: {}
+[13.041960] (sick_visionary_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[13.104890] (-) TimerEvent: {}
+[13.165582] (sick_visionary_ros2) StdoutLine: {'line': b'-- Build files have been written to: /sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2\n'}
+[13.172810] (sick_visionary_ros2) CommandEnded: {'returncode': 0}
+[13.184659] (sick_visionary_ros2) JobProgress: {'identifier': 'sick_visionary_ros2', 'progress': 'build'}
+[13.200282] (sick_visionary_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2', '--', '-j20', '-l20'], 'cwd': '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/helpers/browser.sh'), ('HOME', '/home/astro-dev'), ('OLDPWD', '/sick_visionary_ros2'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1ff0d356-3311-4b20-86ed-5f2cd660e58a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-7f206604-382b-4589-825f-bd37b64ccb99.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-4ab91577-ecd3-4b1f-931e-a8d90be733e2.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/home/astro-dev/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/home/astro-dev/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-484c183e71.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[13.208295] (-) TimerEvent: {}
+[13.309476] (-) TimerEvent: {}
+[13.355981] (sick_visionary_ros2) CommandEnded: {'returncode': 0}
+[13.409648] (-) TimerEvent: {}
+[13.433499] (sick_visionary_ros2) JobProgress: {'identifier': 'sick_visionary_ros2', 'progress': 'install'}
+[13.451841] (sick_visionary_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2'], 'cwd': '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/helpers/browser.sh'), ('HOME', '/home/astro-dev'), ('OLDPWD', '/sick_visionary_ros2'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1ff0d356-3311-4b20-86ed-5f2cd660e58a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-7f206604-382b-4589-825f-bd37b64ccb99.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-4ab91577-ecd3-4b1f-931e-a8d90be733e2.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/home/astro-dev/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X0","/home/astro-dev/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-484c183e71.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[13.471080] (sick_visionary_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.509813] (-) TimerEvent: {}
+[13.602972] (sick_visionary_ros2) StdoutLine: {'line': b'-- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/ament_index/resource_index/package_run_dependencies/sick_visionary_ros2\n'}
+[13.613976] (-) TimerEvent: {}
+[13.714696] (-) TimerEvent: {}
+[13.815553] (-) TimerEvent: {}
+[13.839238] (sick_visionary_ros2) StdoutLine: {'line': b'-- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/ament_index/resource_index/parent_prefix_path/sick_visionary_ros2\n'}
+[13.915740] (-) TimerEvent: {}
+[14.016640] (-) TimerEvent: {}
+[14.061730] (sick_visionary_ros2) StdoutLine: {'line': b'-- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/environment/ament_prefix_path.sh\n'}
+[14.116788] (-) TimerEvent: {}
+[14.150049] (sick_visionary_ros2) StdoutLine: {'line': b'-- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/environment/ament_prefix_path.dsv\n'}
+[14.216983] (-) TimerEvent: {}
+[14.288819] (sick_visionary_ros2) StdoutLine: {'line': b'-- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/environment/path.sh\n'}
+[14.317152] (-) TimerEvent: {}
+[14.418254] (-) TimerEvent: {}
+[14.462882] (sick_visionary_ros2) StdoutLine: {'line': b'-- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/environment/path.dsv\n'}
+[14.518390] (-) TimerEvent: {}
+[14.559501] (sick_visionary_ros2) StdoutLine: {'line': b'-- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/local_setup.bash\n'}
+[14.618556] (-) TimerEvent: {}
+[14.657663] (sick_visionary_ros2) StdoutLine: {'line': b'-- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/local_setup.sh\n'}
+[14.718720] (-) TimerEvent: {}
+[14.768270] (sick_visionary_ros2) StdoutLine: {'line': b'-- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/local_setup.zsh\n'}
+[14.818944] (-) TimerEvent: {}
+[14.876762] (sick_visionary_ros2) StdoutLine: {'line': b'-- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/local_setup.dsv\n'}
+[14.919143] (-) TimerEvent: {}
+[15.020220] (-) TimerEvent: {}
+[15.041216] (sick_visionary_ros2) StdoutLine: {'line': b'-- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/package.dsv\n'}
+[15.120431] (-) TimerEvent: {}
+[15.189846] (sick_visionary_ros2) StdoutLine: {'line': b'-- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/ament_index/resource_index/packages/sick_visionary_ros2\n'}
+[15.220655] (-) TimerEvent: {}
+[15.321664] (-) TimerEvent: {}
+[15.398663] (sick_visionary_ros2) StdoutLine: {'line': b'-- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/cmake/sick_visionary_ros2Config.cmake\n'}
+[15.421890] (-) TimerEvent: {}
+[15.522741] (-) TimerEvent: {}
+[15.562410] (sick_visionary_ros2) StdoutLine: {'line': b'-- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/cmake/sick_visionary_ros2Config-version.cmake\n'}
+[15.622914] (-) TimerEvent: {}
+[15.666748] (sick_visionary_ros2) StdoutLine: {'line': b'-- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/package.xml\n'}
+[15.723079] (-) TimerEvent: {}
+[15.732779] (sick_visionary_ros2) CommandEnded: {'returncode': 0}
+[15.823282] (-) TimerEvent: {}
+[15.924226] (-) TimerEvent: {}
+[16.025273] (-) TimerEvent: {}
+[16.126196] (-) TimerEvent: {}
+[16.227087] (-) TimerEvent: {}
+[16.327957] (-) TimerEvent: {}
+[16.428799] (-) TimerEvent: {}
+[16.529603] (-) TimerEvent: {}
+[16.630570] (-) TimerEvent: {}
+[16.731371] (-) TimerEvent: {}
+[16.825505] (sick_visionary_ros2) JobEnded: {'identifier': 'sick_visionary_ros2', 'rc': 0}
+[16.840534] (-) TimerEvent: {}
+[16.841260] (-) EventReactorShutdown: {}

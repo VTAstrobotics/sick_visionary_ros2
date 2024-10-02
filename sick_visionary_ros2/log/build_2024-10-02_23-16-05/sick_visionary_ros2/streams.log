@@ -1,0 +1,47 @@
+[0.076s] Invoking command in '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /sick_visionary_ros2/sick_visionary_ros2 -DCMAKE_INSTALL_PREFIX=/sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2
+[0.444s] -- The C compiler identification is GNU 11.4.0
+[0.763s] -- The CXX compiler identification is GNU 11.4.0
+[0.853s] -- Detecting C compiler ABI info
+[1.735s] -- Detecting C compiler ABI info - done
+[1.778s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.780s] -- Detecting C compile features
+[1.781s] -- Detecting C compile features - done
+[1.868s] -- Detecting CXX compiler ABI info
+[2.803s] -- Detecting CXX compiler ABI info - done
+[2.865s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.867s] -- Detecting CXX compile features
+[2.870s] -- Detecting CXX compile features - done
+[3.018s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.261s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.645s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.491s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.492s] -- Configured cppcheck include dirs: 
+[7.493s] -- Configured cppcheck exclude dirs and/or files: 
+[8.768s] -- Added test 'lint_cmake' to check CMake code style
+[12.023s] -- Added test 'uncrustify' to check C / C++ code style
+[12.024s] -- Configured uncrustify additional arguments: 
+[12.353s] -- Added test 'xmllint' to check XML markup files
+[12.531s] -- Configuring done
+[13.041s] -- Generating done
+[13.165s] -- Build files have been written to: /sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2
+[13.174s] Invoked command in '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /sick_visionary_ros2/sick_visionary_ros2 -DCMAKE_INSTALL_PREFIX=/sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2
+[13.204s] Invoking command in '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2 -- -j20 -l20
+[13.355s] Invoked command in '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2 -- -j20 -l20
+[13.453s] Invoking command in '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2
+[13.470s] -- Install configuration: ""
+[13.611s] -- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/ament_index/resource_index/package_run_dependencies/sick_visionary_ros2
+[13.839s] -- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/ament_index/resource_index/parent_prefix_path/sick_visionary_ros2
+[14.061s] -- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/environment/ament_prefix_path.sh
+[14.149s] -- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/environment/ament_prefix_path.dsv
+[14.289s] -- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/environment/path.sh
+[14.462s] -- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/environment/path.dsv
+[14.558s] -- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/local_setup.bash
+[14.657s] -- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/local_setup.sh
+[14.767s] -- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/local_setup.zsh
+[14.876s] -- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/local_setup.dsv
+[15.041s] -- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/package.dsv
+[15.189s] -- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/ament_index/resource_index/packages/sick_visionary_ros2
+[15.398s] -- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/cmake/sick_visionary_ros2Config.cmake
+[15.561s] -- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/cmake/sick_visionary_ros2Config-version.cmake
+[15.665s] -- Installing: /sick_visionary_ros2/sick_visionary_ros2/install/sick_visionary_ros2/share/sick_visionary_ros2/package.xml
+[15.732s] Invoked command in '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2

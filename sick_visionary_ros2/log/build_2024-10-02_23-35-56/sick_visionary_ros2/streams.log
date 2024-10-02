@@ -1,0 +1,70 @@
+[0.143s] Invoking command in '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2 -- -j20 -l20
+[0.359s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.652s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.835s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.875s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.878s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.886s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.912s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.949s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.033s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.071s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.081s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.770s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.821s] -- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[1.844s] -- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)
+[2.008s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[2.037s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.048s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[2.242s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[4.560s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.568s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.569s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[5.184s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.197s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.206s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.873s] -- Found Qhull version 8.0.2
+[6.504s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.148s] -- looking for PCL_COMMON
+[7.150s] -- looking for PCL_KDTREE
+[7.152s] -- looking for PCL_OCTREE
+[7.153s] -- looking for PCL_SEARCH
+[7.155s] -- looking for PCL_SAMPLE_CONSENSUS
+[7.156s] -- looking for PCL_FILTERS
+[7.158s] -- looking for PCL_2D
+[7.159s] -- looking for PCL_GEOMETRY
+[7.161s] -- looking for PCL_IO
+[7.164s] -- looking for PCL_FEATURES
+[7.167s] -- looking for PCL_ML
+[7.168s] -- looking for PCL_SEGMENTATION
+[7.170s] -- looking for PCL_VISUALIZATION
+[7.172s] -- looking for PCL_SURFACE
+[7.173s] -- looking for PCL_REGISTRATION
+[7.175s] -- looking for PCL_KEYPOINTS
+[7.176s] -- looking for PCL_TRACKING
+[7.178s] -- looking for PCL_RECOGNITION
+[7.179s] -- looking for PCL_STEREO
+[7.181s] -- looking for PCL_APPS
+[7.183s] -- looking for PCL_IN_HAND_SCANNER
+[7.184s] -- looking for PCL_MODELER
+[7.186s] -- looking for PCL_POINT_CLOUD_EDITOR
+[7.187s] -- looking for PCL_OUTOFCORE
+[7.188s] -- looking for PCL_PEOPLE
+[7.190s] [31mCMake Error at CMakeLists.txt:64 (add_subdirectory):
+[7.191s]   add_subdirectory given source "sick_visionary_cpp_shared" which is not an
+[7.192s]   existing directory.
+[7.194s] 
+[7.195s] [0m
+[22.226s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.229s] -- Configured cppcheck include dirs: /sick_visionary_ros2/sick_visionary_ros2/include;/sick_visionary_ros2/sick_visionary_ros2/sick_visionary_cpp_shared
+[22.233s] -- Configured cppcheck exclude dirs and/or files: 
+[23.300s] -- Added test 'flake8' to check Python code syntax and style conventions
+[26.077s] -- Added test 'lint_cmake' to check CMake code style
+[27.427s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[40.793s] -- Added test 'uncrustify' to check C / C++ code style
+[40.795s] -- Configured uncrustify additional arguments: 
+[42.325s] -- Added test 'xmllint' to check XML markup files
+[42.494s] -- Configuring incomplete, errors occurred!
+[42.496s] See also "/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2/CMakeFiles/CMakeOutput.log".
+[42.590s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[42.593s] Invoked command in '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2 -- -j20 -l20

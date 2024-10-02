@@ -1,0 +1,27 @@
+[0.084s] Invoking command in '/sick_visionary_ros2/build/sick_visionary_ros': /usr/bin/cmake /sick_visionary_ros2 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/sick_visionary_ros2/install/sick_visionary_ros
+[0.597s] -- The CXX compiler identification is GNU 11.4.0
+[0.704s] -- Detecting CXX compiler ABI info
+[1.509s] -- Detecting CXX compiler ABI info - done
+[1.554s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.557s] -- Detecting CXX compile features
+[1.559s] -- Detecting CXX compile features - done
+[1.660s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[1.661s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.666s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.672s]   CMake did not find one.
+[1.676s] 
+[1.678s]   Could not find a package configuration file provided by "catkin" with any
+[1.680s]   of the following names:
+[1.681s] 
+[1.683s]     catkinConfig.cmake
+[1.685s]     catkin-config.cmake
+[1.689s] 
+[1.690s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.692s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.694s]   provides a separate development package or SDK, be sure it has been
+[1.695s]   installed.
+[1.697s] 
+[1.698s] [0m
+[1.700s] -- Configuring incomplete, errors occurred!
+[1.701s] See also "/sick_visionary_ros2/build/sick_visionary_ros/CMakeFiles/CMakeOutput.log".
+[1.703s] Invoked command in '/sick_visionary_ros2/build/sick_visionary_ros' returned '1': /usr/bin/cmake /sick_visionary_ros2 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/sick_visionary_ros2/install/sick_visionary_ros

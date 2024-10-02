@@ -1,0 +1,15 @@
+[31mCMake Error at CMakeLists.txt:32 (find_package):
+  find_package called with invalid argument "Required"
+
+[0m
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[31mCMake Error at CMakeLists.txt:64 (add_subdirectory):
+  add_subdirectory given source "sick_visionary_cpp_shared" which is not an
+  existing directory.
+
+[0m
+[31mCMake Error at CMakeLists.txt:95 (install):
+  install DIRECTORY given no DESTINATION!
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

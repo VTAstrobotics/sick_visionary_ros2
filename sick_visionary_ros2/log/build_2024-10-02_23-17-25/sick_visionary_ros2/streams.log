@@ -1,0 +1,22 @@
+[0.138s] Invoking command in '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2 -- -j20 -l20
+[0.420s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[0.422s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.423s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.425s]   CMake did not find one.
+[0.426s] 
+[0.428s]   Could not find a package configuration file provided by "catkin" with any
+[0.430s]   of the following names:
+[0.434s] 
+[0.437s]     catkinConfig.cmake
+[0.439s]     catkin-config.cmake
+[0.440s] 
+[0.442s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.444s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.446s]   provides a separate development package or SDK, be sure it has been
+[0.448s]   installed.
+[0.450s] 
+[0.454s] [0m
+[0.455s] -- Configuring incomplete, errors occurred!
+[0.457s] See also "/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2/CMakeFiles/CMakeOutput.log".
+[0.458s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.460s] Invoked command in '/sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /sick_visionary_ros2/sick_visionary_ros2/build/sick_visionary_ros2 -- -j20 -l20
